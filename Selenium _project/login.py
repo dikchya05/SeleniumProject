@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-serv_obj =Service("D:/Drivers/chromedriver-win32/chromedriver.exe")
+serv_obj =Service("D:\Drivers\chromedriver-win32/chromedriver.exe")
 driver= webdriver.Chrome(service=serv_obj)
 
 driver.get("http://opensource-demo.orangehrmlive.com/")
